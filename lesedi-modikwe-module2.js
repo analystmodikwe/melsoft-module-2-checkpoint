@@ -55,6 +55,30 @@ const noneExisting = null;
 
 
 //                                             Challenge 2. 
+
+console.log(typeof fullName);
+console.log(typeof age);
+console.log(typeof isEnjoyingJavacript);
+console.log(typeof float);
+console.log(typeof nonNumber);
+console.log(typeof division);
+console.log(typeof num);
+// i didnt know that type of null is object, but i know understand that it is because thats a bug from when javascript was created
+console.log(typeof noneExisting);
+
+console.log(typeof undefined);
+console.log(typeof null);
+// type of NaN is number because its a special value of the number type, not its own type and NaN is not equal to anything
+console.log(typeof NaN);
+console.log(typeof "42");
+console.log(typeof (typeof 42));
+// i thought it would be an array but its object, because anything that is not a primitive etc falls under objects, so arrays are special objects
+console.log(typeof [1, 2, 3]);
+console.log(typeof function() {});
+
+// type of NaN is number because its a special value of the number type, not its own type and NaN is not equal to anything and type of null is an object because thats a bug from when javascript was created
+
+
 //                                             Challenge 3. 
 //                                             Challenge 4. 
 //                                             Challenge 5. 

@@ -1,4 +1,5 @@
-// CHALLENGE 1
+//                                             Challenge 1. 
+
 // var- the old/original way to declare a variable and you can redeclare the same name eg.
 var car = "mercedes benz";
 var car = "bmw";
@@ -51,3 +52,14 @@ const noneExisting = null;
 
 // 3 Why is naming a variable usrNm bad? What would you rename it to, and why does naming matter for a professional codebase?
 // because its difficult to read or understand, i would rename it to userName, because you are not the only person who is going to read your code
+
+
+//                                             Challenge 2. 
+//                                             Challenge 3. 
+//                                             Challenge 4. 
+//                                             Challenge 5. 
+//                                             Challenge 6. 
+//                                             Challenge 7. 
+//                                             Challenge 8. 
+//                                             Challenge 9. 
+//                                             Challenge 10. 

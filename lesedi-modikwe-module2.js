@@ -376,5 +376,19 @@ console.log(total)
 // i also used template literals
 
 //                                             Challenge 8. 
+
+section("challenge 8")
+
+const productName = "Whey Protien";
+const unitPrice = R1000;
+const quantityInput = "1";
+const taxRate = 0.15;
+
+
+
+
+
+
+
 //                                             Challenge 9. 
 //                                             Challenge 10. 

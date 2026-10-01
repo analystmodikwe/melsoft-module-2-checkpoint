@@ -341,6 +341,19 @@ console.log(Math.abs((0.1 + 0.2) - 0.3) < Number.EPSILON);
 
 
 //                                             Challenge 7. 
+
+var p = "199.99"
+var q = "3"
+var t = 0.15
+var sub = p * q
+
+var tax = sub * t
+var tot = sub + tax
+var r = "Total: " + tot
+console.log(r)
+
+
+
 //                                             Challenge 8. 
 //                                             Challenge 9. 
 //                                             Challenge 10. 

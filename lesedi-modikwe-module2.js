@@ -80,6 +80,56 @@ console.log(typeof function() {});
 
 
 //                                             Challenge 3. 
+// Conversion A
+let a = "123";
+
+// a function to comment out the section header
+function section(title) {
+  console.log(`\n===== ${title} =====`);
+};
+
+// a function to log the results and the typeoff
+function log(result) {
+    console.log(result, typeof result)
+};
+
+// the actual header
+section("a covertion");
+
+log(Number(a));
+log(parseInt(a, 10));
+log(parseFloat(a));
+log(Boolean(a));
+log(String(a));
+
+// conversion B
+let b = "3.14";
+
+function section(title) {
+  console.log(`\n===== ${title} =====`);
+};
+
+function log(result) {
+    console.log(result, typeof result)
+};
+
+section("b covertion");
+
+log(Number(b));
+log(parseInt(b, 10));
+log(parseFloat(b));
+log(Boolean(b));
+log(String(b));
+
+let c = "hello";
+let d = "42abc";
+let e = "";
+let f = 0;
+let g = null;
+let h = undefined;
+
+
+
 //                                             Challenge 4. 
 //                                             Challenge 5. 
 //                                             Challenge 6. 

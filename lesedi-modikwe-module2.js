@@ -81,12 +81,14 @@ console.log(typeof function() {});
 
 //                                             Challenge 3. 
 // Conversion A
-let a = "123";
 
 // a function to comment out the section header
 function section(title) {
   console.log(`\n===== ${title} =====`);
 };
+
+
+let a = "123";
 
 // a function to log the results and the typeoff
 function log(result) {
@@ -105,9 +107,9 @@ log(String(a));
 // conversion B
 let b = "3.14";
 
-function section(title) {
-  console.log(`\n===== ${title} =====`);
-};
+// function section(title) {
+//   console.log(`\n===== ${title} =====`);
+// };
 
 function log(result) {
     console.log(result, typeof result)

@@ -255,6 +255,26 @@ null + undefined;
 [1] + [2];
 
 //                                             Challenge 5. 
+
+var userName = "Sarah";
+var userAge = "25";
+var userScore = 85.5;
+var scoreAdjustment = "10";
+var newScore = userScore + scoreAdjustment;
+console.log("New score: " + newScore);
+var salary = "50000";
+var TAX_RATE = 0.15;
+var tax = salary * TAX_RATE;
+console.log("Tax: R" + tax);
+var yearsUntilRetirement = 65 - userAge;
+console.log("Years until retirement: " + yearsUntilRetirement);
+var totalAgeAndScore = userAge + userScore;
+console.log(totalAgeAndScore);
+var isAdmin = "false";
+console.log("Admin: " + Boolean(isAdmin));
+
+
+
 //                                             Challenge 6. 
 //                                             Challenge 7. 
 //                                             Challenge 8. 

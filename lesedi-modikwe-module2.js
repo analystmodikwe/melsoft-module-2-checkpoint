@@ -400,6 +400,14 @@ const adding = subtotal + tax;
 const total2 = (`TOTAL: ${adding}`)
 console.log(total2);
 
+// 2decimal places
+const amount = Number(4089.9955)
+console.log(amount.toFixed(2));
+
 
 //                                             Challenge 9. 
+
+
+
+
 //                                             Challenge 10. 

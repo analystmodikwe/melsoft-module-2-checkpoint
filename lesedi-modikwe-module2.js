@@ -210,6 +210,8 @@ log(Boolean(h));
 log(String(h));
 
 // 1 NaN number and 42 number
+// when you dont want an integer
+// 0 it will cause a bug because a blank input look like valid zero
 
 
 

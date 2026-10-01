@@ -255,7 +255,7 @@ null + undefined;
 [1] + [2];
 
 //                                             Challenge 5. 
-
+section("challenge 5")
 // variable with Sarah as a value
 var userName = "Sarah";
 
@@ -321,13 +321,23 @@ console.log(`ADMIN: ${isAdmin}`);
 
 
 //                                             Challenge 6. 
+section("challenge 6")
 
+console.log(0.1 + 0.2)
+console.log(0.3 - 0.1)
+console.log(0.1 * 3)
+console.log(0.1 + 0.2 === 0.3)
 
+// it behaves this way because javascript uses binary as a as floating points
+// computers store numbers in base 2,
+// because they follow the same IEEE 754 standard. 
 
-
-
-
-
+// If the gap between the two numbers is smaller than EPSILON, they are "equal enough"
+console.log(Math.abs((0.1 + 0.2) - 0.3) < Number.EPSILON);
+// (0.1 + 0.2) - 0.3 is the tiny leftover error (about 5.5e-17).
+// Math.abs(...) removes the minus sign, so only the size of the gap counts.
+// Number.EPSILON is the smallest difference between 1 and the next number
+// < Number.EPSILON checks that the gap is smaller than 2.22e-16, which counts as "close enough".
 
 
 //                                             Challenge 7. 

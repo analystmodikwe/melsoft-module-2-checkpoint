@@ -256,23 +256,46 @@ null + undefined;
 
 //                                             Challenge 5. 
 
+// variable with Sarah as a value
 var userName = "Sarah";
+
+// variable with 25 as a value
 var userAge = "25";
+
+//  variable with decimal as a datatype
 var userScore = 85.5;
+
+//  variable with a string as a datatype
 var scoreAdjustment = "10";
+
+// adding userScore and scoreAdjustment then console loging new score
 var newScore = userScore + scoreAdjustment;
 console.log("New score: " + newScore);
+
+//  variable with string as a datatype
 var salary = "50000";
+
+// //  variable with 0.15 as a value
 var TAX_RATE = 0.15;
+
+// tax calculation multiplying salary by taxrate
 var tax = salary * TAX_RATE;
 console.log("Tax: R" + tax);
+
+// year of retirement calculations
 var yearsUntilRetirement = 65 - userAge;
 console.log("Years until retirement: " + yearsUntilRetirement);
+
+// adding user age and userscore
 var totalAgeAndScore = userAge + userScore;
 console.log(totalAgeAndScore);
+
+// code to show that its not admin
 var isAdmin = "false";
 console.log("Admin: " + Boolean(isAdmin));
 
+// problems
+// 1
 
 
 //                                             Challenge 6. 

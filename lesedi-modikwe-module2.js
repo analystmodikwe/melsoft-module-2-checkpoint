@@ -95,7 +95,7 @@ function log(result) {
 };
 
 // the actual header
-section("a covertion");
+section("a  conversion");
 
 log(Number(a));
 // redix 10, this tell pass int to read this as a normal decimal number
@@ -111,7 +111,7 @@ function log(result) {
     console.log(result, typeof result)
 };
 
-section("b covertion");
+section("b conversion");
 
 log(Number(b));
 log(parseInt(b, 10));
@@ -126,7 +126,7 @@ function log(result) {
     console.log(result, typeof result)
 };
 
-section("c covertion");
+section("c conversion");
 
 log(Number(c));
 log(parseInt(c, 10));
@@ -141,7 +141,7 @@ function log(result) {
     console.log(result, typeof result)
 };
 
-section("d covertion");
+section("d conversion");
 
 log(Number(d));
 log(parseInt(d, 10));
@@ -156,7 +156,7 @@ function log(result) {
     console.log(result, typeof result)
 };
 
-section("e covertion");
+section("e conversion");
 
 log(Number(e));
 log(parseInt(e, 10));
@@ -171,7 +171,7 @@ function log(result) {
     console.log(result, typeof result)
 };
 
-section("f covertion");
+section("f conversion");
 
 log(Number(f));
 log(parseInt(f, 10));
@@ -186,7 +186,7 @@ function log(result) {
     console.log(result, typeof result)
 };
 
-section("g covertion");
+section("g conversion");
 
 log(Number(g));
 log(parseInt(g, 10));
@@ -201,13 +201,15 @@ function log(result) {
     console.log(result, typeof result)
 };
 
-section("h covertion");
+section("h conversion");
 
 log(Number(h));
 log(parseInt(h, 10));
 log(parseFloat(h));
 log(Boolean(h));
 log(String(h));
+
+// 1 NaN number and 42 number
 
 
 

@@ -292,10 +292,21 @@ console.log(totalAgeAndScore);
 
 // code to show that its not admin
 var isAdmin = "false";
-console.log("Admin: " + Boolean(isAdmin));
+
+// fixed
+var isAdmin = "false";
+console.log(`ADMIN: ${isAdmin}`);
+
+
 
 // problems
-// 1
+// 1, age value is initialized as a string, and it should be a number
+// 2, score adjastment value is initialized as a string, and it should be a number
+// 3, newScore will give us a string as an answer because + will concatinate everything into  a string
+// 4, salary value is initialized as a string, and it should be a number
+// 5; yearsUntilRetirement will log a NaN because 65 is number and userAge is a string
+// 6; totalAgeAndScore everything will be concatinated to a string
+// 7, it will result into true
 
 
 //                                             Challenge 6. 

@@ -380,14 +380,25 @@ console.log(total)
 section("challenge 8")
 
 const productName = "Whey Protien";
-const unitPrice = R1000;
-const quantityInput = "1";
+const unitPrice = 1000;
+const quantityInput = "4";
 const taxRate = 0.15;
 
+// casting quantityInput to a number safely and storing the result in a new variable called quantity.
+const quantity = Number(quantityInput);
 
+// subtotal
+const subtotal = unitPrice * quantity;
 
+// tax
+const tax2 = subtotal * taxRate;
 
+// adding 
+const adding = subtotal + tax;
 
+// total
+const total2 = (`TOTAL: ${adding}`)
+console.log(total2);
 
 
 //                                             Challenge 9. 

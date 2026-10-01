@@ -341,6 +341,7 @@ console.log(Math.abs((0.1 + 0.2) - 0.3) < Number.EPSILON);
 
 
 //                                             Challenge 7. 
+section("section/ challenge 7")
 
 var p = "199.99"
 var q = "3"
@@ -352,7 +353,27 @@ var tot = sub + tax
 var r = "Total: " + tot
 console.log(r)
 
+// fixed
+section("challenge 7 fixed")
 
+const firstNum = "199.99";
+const newNum1 = Number(firstNum);
+
+const secondNum = "3";
+const newNum2 = Number(secondNum);
+
+const thirdNum = 0.15;
+
+const sum1 = newNum1 * newNum2;
+
+const tax1 = sum1 * thirdNum;
+const combining = sum1 + tax1;
+const total = (`TOTAL: ${combining}`);
+console.log(total)
+//  i changed all variables names with appropriate ones for readability of the code
+// i changed all strings that were supposed to be numbers to be numbers, sice we are dealing with calculations, a number should stay a number
+// used const because var its an old way of declaring a variable
+// i also used template literals
 
 //                                             Challenge 8. 
 //                                             Challenge 9. 

@@ -406,8 +406,35 @@ console.log(amount.toFixed(2));
 
 
 //                                             Challenge 9. 
+section("challenge 9")
 
+let mystery = "10"
+let count = 5
+let result = mystery / count
+// number
+console.log(typeof result)
+// 2 because because division convert string to number
+console.log(result)
 
+let mystery2 = "10a"
+let count2 = 5
+let result2 = mystery2 / count2
+// Number
+console.log(typeof result2)
+// NaN
+console.log(result2)
+// NaN because anyting + NaN is a NaN
+console.log(result2 + 1)
+
+let mystery3 = "10"
+let result3 = mystery3 + 5 + 5
+let result4 = 5 + 5 + mystery3
+// "1055"
+console.log(result3)
+// "1010"
+console.log(result4)
 
 
 //                                             Challenge 10. 
+
+

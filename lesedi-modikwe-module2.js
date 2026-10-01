@@ -261,12 +261,19 @@ var userName = "Sarah";
 
 // variable with 25 as a value
 var userAge = "25";
+// fixed
+var userAge = 25;
+// fixed the value fron string to number
 
 //  variable with decimal as a datatype
 var userScore = 85.5;
 
 //  variable with a string as a datatype
 var scoreAdjustment = "10";
+// fixed
+var scoreAdjustment = 10;
+// fixed the value fron string to number
+
 
 // adding userScore and scoreAdjustment then console loging new score
 var newScore = userScore + scoreAdjustment;
@@ -292,11 +299,12 @@ console.log(totalAgeAndScore);
 
 // code to show that its not admin
 var isAdmin = "false";
+console.log("Admin: " + Boolean(isAdmin));
 
 // fixed
 var isAdmin = "false";
 console.log(`ADMIN: ${isAdmin}`);
-
+// changed the + Boolean(isAdmin) because it was making our boolean true
 
 
 // problems

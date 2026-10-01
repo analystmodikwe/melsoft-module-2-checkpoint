@@ -214,8 +214,46 @@ log(String(h));
 // 0 it will cause a bug because a blank input look like valid zero
 
 
+//                                             Challenge 4.
 
-//                                             Challenge 4. 
+// this will print "5"3, type of will be a number, because the number its what was added
+"5" + 3
+//  i was wrong, it will print "53" because + is acting as a string concatination so 3 becomes a string
+
+// it will print 2, number, because string is converted into a number
+"5" - 3;
+
+// 10,number, because * work with both numbers
+"5" * "2";
+
+// 2, number, because true by default convert to 1
+true + 1;
+
+// 2 , number because true will be one and its on the left and its will add whats on the right 
+true + "1";
+// "true1", string, because + will turn boolen to a string
+
+// 0, number, because false default to zero and null is zero
+false + null;
+
+// NaN, Number, because NaN is still a number
+null + undefined;
+
+// infinity, number, because we are deviding a nin zero number by zer
+1 / 0;
+
+// NaN , number, because mathematically its undefined
+0 / 0;
+
+// NaN, number , because - forces numeric conversion
+"abc" - 1;
+
+// empty string, string by dafault empty array is a string
+[] + [];
+
+//  "12", string , 
+[1] + [2];
+
 //                                             Challenge 5. 
 //                                             Challenge 6. 
 //                                             Challenge 7. 

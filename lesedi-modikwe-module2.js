@@ -438,3 +438,29 @@ console.log(result4)
 //                                             Challenge 10. 
 
 
+// What is the SINGLE most important thing you understood about JavaScript's type system
+// from this project?
+// you need to always name your variables in a manner thats readable, and even how you declar the plays a huge role
+
+
+// 2 Explain the difference between typeof and Number.isNaN, and give an example of when you
+// would use each.
+// typeof is when you want to know the data type of a certain variables value,
+//  Number.isNaN is when you want to know if a certain variable is NaN or not, it will return true if its NaN and false if its not
+
+// 3 Describe a realistic scenario in production code where forgetting to cast a value would
+// cause a bug that a developer might not notice for a long time.
+// For example, if a user inputs a string instead of a number for a quantity, and it's not cast to a number, any mathematical operations on it will result in unexpected behavior or errors.
+
+
+// 4 In your own words: what is the difference between IMPLICIT and EXPLICIT type coercion?
+// Give one example of each from your own work in this project.
+// IMPLICIT type coercion happens automatically when JavaScript converts one data type to another without explicit instruction, eg 
+console.log("5" + 3); // Here, the number 3 is implicitly coerced to a string, resulting in "53".
+
+// EXPLICIT type coercion is when the developer manually converts a value from one data type to another using functions like Number() or parseInt(). eg
+console.log(Number("5")); // Here, the string "5" is explicitly coerced to a number, resulting in 5.
+
+// 5 If you had to teach Module 2 to another beginner tomorrow, which ONE concept would you
+// emphasise as most easy to misunderstand? Why?
+// Data types and type coercion, because it can lead to unexpected results if not properly understood, especially when dealing with operations that involve different data types.

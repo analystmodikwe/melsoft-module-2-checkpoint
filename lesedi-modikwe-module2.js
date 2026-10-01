@@ -80,14 +80,13 @@ console.log(typeof function() {});
 
 
 //                                             Challenge 3. 
-// Conversion A
 
 // a function to comment out the section header
 function section(title) {
   console.log(`\n===== ${title} =====`);
 };
 
-
+// Conversion A
 let a = "123";
 
 // a function to log the results and the typeoff
@@ -99,6 +98,7 @@ function log(result) {
 section("a covertion");
 
 log(Number(a));
+// redix 10, this tell pass int to read this as a normal decimal number
 log(parseInt(a, 10));
 log(parseFloat(a));
 log(Boolean(a));
@@ -106,10 +106,6 @@ log(String(a));
 
 // conversion B
 let b = "3.14";
-
-// function section(title) {
-//   console.log(`\n===== ${title} =====`);
-// };
 
 function log(result) {
     console.log(result, typeof result)
@@ -123,12 +119,95 @@ log(parseFloat(b));
 log(Boolean(b));
 log(String(b));
 
+// conversion c
 let c = "hello";
+
+function log(result) {
+    console.log(result, typeof result)
+};
+
+section("c covertion");
+
+log(Number(c));
+log(parseInt(c, 10));
+log(parseFloat(c));
+log(Boolean(c));
+log(String(c));
+
+// convertion d
 let d = "42abc";
+
+function log(result) {
+    console.log(result, typeof result)
+};
+
+section("d covertion");
+
+log(Number(d));
+log(parseInt(d, 10));
+log(parseFloat(d));
+log(Boolean(d));
+log(String(d));
+
+// e convertion
 let e = "";
+
+function log(result) {
+    console.log(result, typeof result)
+};
+
+section("e covertion");
+
+log(Number(e));
+log(parseInt(e, 10));
+log(parseFloat(e));
+log(Boolean(e));
+log(String(e));
+
+// f convertion
 let f = 0;
+
+function log(result) {
+    console.log(result, typeof result)
+};
+
+section("f covertion");
+
+log(Number(f));
+log(parseInt(f, 10));
+log(parseFloat(f));
+log(Boolean(f));
+log(String(f));
+
+// g convertion
 let g = null;
+
+function log(result) {
+    console.log(result, typeof result)
+};
+
+section("g covertion");
+
+log(Number(g));
+log(parseInt(g, 10));
+log(parseFloat(g));
+log(Boolean(g));
+log(String(g));
+
+// h convertion
 let h = undefined;
+
+function log(result) {
+    console.log(result, typeof result)
+};
+
+section("h covertion");
+
+log(Number(h));
+log(parseInt(h, 10));
+log(parseFloat(h));
+log(Boolean(h));
+log(String(h));
 
 
 

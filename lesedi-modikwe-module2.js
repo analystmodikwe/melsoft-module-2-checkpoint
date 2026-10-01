@@ -274,13 +274,16 @@ var scoreAdjustment = "10";
 var scoreAdjustment = 10;
 // fixed the value fron string to number
 
-
 // adding userScore and scoreAdjustment then console loging new score
 var newScore = userScore + scoreAdjustment;
 console.log("New score: " + newScore);
 
 //  variable with string as a datatype
 var salary = "50000";
+// fixed
+var salary  = 50000;
+// fixed the value fron string to number
+
 
 // //  variable with 0.15 as a value
 var TAX_RATE = 0.15;
@@ -318,6 +321,15 @@ console.log(`ADMIN: ${isAdmin}`);
 
 
 //                                             Challenge 6. 
+
+
+
+
+
+
+
+
+
 //                                             Challenge 7. 
 //                                             Challenge 8. 
 //                                             Challenge 9. 
